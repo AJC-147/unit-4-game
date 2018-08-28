@@ -1,73 +1,139 @@
 body {
-    background-image: url("../images/bananas.png");
+    background-image: url("../images/cloudy-day.png");
 }
 
 h1 {
     font-family: 'Great Vibes', cursive;
-    font-size: 40px;
+    font-size: 42px;
     text-align: center;
-/*
-    position: absolute;
-    bottom: 58px;
-*/
+    position: relative;
+    bottom: 97px;
+    color: #000000ab;
+    filter: drop-shadow(1px 1px 2px #000000ab);
+    transform: rotate(-5deg);
 }
 
 h2, h3, h4, h5, h6, p {
     font-family: 'Permanent Marker', cursive;
+    color: #000000ab;
+    text-align: center;
+}
+
+p {
+    padding: 0 10% 0 10%;
+    font-size: 18px;
+    line-height: 22px;
 }
 
 div#banner {
-/*    background-image: url("../images/parchment.png")*/
-/*
-    position: relative;
-    padding-left: 30%;
-    padding-right: 30%;
-*/
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 364px;
+    position: relative;
+    top: 15px;
+}
+
+table.results {
+    background-image: url("../images/connectwork.png");
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    width: 650px;
+    border-radius: 40px;
+    filter: drop-shadow(1px 5px 3px #ffffff);
+}
+
+tr {
+    width: 600px;
+    position: relative;
+    left: 30px;
+}
+
+td {
+    padding: 2%;
+/*    text-align: start;*/
+/*
+    position: relative;
+    left: 35px;
+*/
+    line-height: 30px;
+    vertical-align: bottom;
+/*    border: red solid 1px;*/
+    padding-left: 50px;
+    width: 225px;
 }
 
 div#instructions {
-    color: blue;
-}
-
-div#target {
-    
+    background-image: url("../images/light-veneer.png");
+    padding: 2%;
+    filter: drop-shadow(1px 2px 3px #000000ab);
+    position: relative;
+    bottom: 10px;
 }
 
 div#outcome {
-    
+    font-family: 'Permanent Marker', cursive;
+    font-size: 26px;
+    color: #ffffff;
 }
 
 div#wins {
-    
+    font-family: 'Permanent Marker', cursive;
+    font-size: 26px;
+    color: #ffffff;
 }
 
 div#losses {
-    
-}
-
-div#crystals {
-    
+    font-family: 'Permanent Marker', cursive;
+    font-size: 26px;
+    color: #ffffff;
 }
 
 div#playerscore {
-    
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    padding: 2%;
+    background-image: url("../images/qbkls.png");
+    filter: drop-shadow(1px 2px 3px #000000ab);
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    font-size: 26px;
+    border-radius: 25px;
+    position: relative;
+    top: 15px;
 }
 
 span#number-to-reach {
-    
-    
+    font-family: 'Permanent Marker', cursive;
+/*    text-align: right;*/
+    font-size: 36px;
+    color: #ffffff;
+    position: relative;
+    left: 40px;
+}
+
+div#outcomeContainer {
+    position: relative;
+    left: 50px;
 }
 
 div#container {
     padding-right: 10%;
+    background-image: url("../images/dark-grey-terrazzo.png");
+    filter: drop-shadow(1px -5px 3px #ffffff);
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 40px;
+}
+
+div#gems {
+    padding: 0 10% 0 10%;
 }
 
 .gems {
-    background: beige;
     padding: 20px;
     position: relative;
     left: 10%;

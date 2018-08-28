@@ -1,6 +1,6 @@
 var targetNumber = Math.floor(Math.random() * 120) + 19;
 
-$("#number-to-reach").text(targetNumber);
+$("#number-to-reach").text("Your target score is: " + targetNumber);
 
 var counter = 0;
 
@@ -49,7 +49,7 @@ var reset = function () {
     var resetTarget = function () {
         $("#number-to-reach").empty();
         targetNumber = Math.floor(Math.random() * 120) + 19;
-        $("#number-to-reach").text(targetNumber);
+        $("#number-to-reach").text("Your target score is: " + targetNumber);
     }
 
 

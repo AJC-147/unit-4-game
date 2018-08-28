@@ -13,29 +13,28 @@
    <div id="banner"><img src="./assets/images/parchment.png" height="150px">
    <h1>Crystal Collector!</h1></div>
    
-   <div id="body">
-   <div id = "instructions"><p>You will be given a random number at the start of the game. <br>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score. <br>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number. <br>The value of each crytal is hidden from you until you click on it. <br> Each time when the game starts, the game will change the values of each crystal.</p></div>
+   <div id = "instructions"><p>You will be given a random number at the start of the game. <br>...<br>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score. <br>...<br>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number. <br>...<br>The value of each crytal is hidden from you until you click on it. <br>...<br>Each time when the game starts, the game will change the values of each crystal.</p></div>
    
-   <div id="target"></div>
+   <table class="results">
+   <tr>
+   <td>
+  <span id="number-to-reach">Your target score is: </span>
+   </td>
+   <td>
+   <div id="outcomeContainer">
+   <div id="outcome">_______</div>
    
-   <div id="outcome"></div>
+   <div id="wins">Wins: </div>
+   <div id="losses">Losses: </div>
+   </div>
+   </td>
+   </tr>
+   </table>
    
-   <div id="wins"></div>
-   <div id="losses"></div>
+   <div id="playerscore">Your total score is: __</div>
    
-   <div id="crystals"></div>
-   
-   <div id="playerscore"><p>Your total score is: </p></div>
-   
-   <hr>
-
-  <span id="number-to-reach"></span>
-
 <div id="container">
   <div id="gems"></div></div>
-</div>
-   
-   
    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="./assets/javascript/game.js"></script>
